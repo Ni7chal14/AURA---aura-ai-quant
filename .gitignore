@@ -49,7 +49,7 @@ htmlcov/
 .ruff_cache/
 
 # Data & artifacts (don't commit downloaded prices or model files)
-data/
+/data/
 mlruns/
 mlartifacts/
 *.parquet
