@@ -59,6 +59,7 @@ quant-ml = "quant_ml.cli:cli"
 
 [tool.setuptools.packages.find]
 where = ["src"]
+include = ["quant_ml*"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
@@ -79,3 +80,4 @@ warn_return_any = true
 warn_unused_configs = true
 disallow_untyped_defs = true
 ignore_missing_imports = true
+
