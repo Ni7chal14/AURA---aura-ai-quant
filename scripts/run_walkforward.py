@@ -182,7 +182,8 @@ def main(cfg: ExperimentConfig, enable_mlflow: bool = True) -> None:
         f"Max DD       : {bh_metrics.max_drawdown:.2%}\n\n"
         f"=== Walk-Forward Folds ===\n"
         f"{wf_result.fold_metrics.to_string()}\n"
-        f"\nMean accuracy: {wf_result.mean_accuracy:.4f} (±{wf_result.std_accuracy:.4f})\n"
+        f"\nMean accuracy: {wf_result.mean_accuracy:.4f} (±{wf_result.std_accuracy:.4f})\n",
+        encoding="utf-8",
     )
     logger.info(f"Wrote {summary_path}")
 

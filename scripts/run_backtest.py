@@ -102,7 +102,7 @@ def main(cfg: ExperimentConfig, enable_mlflow: bool = True) -> None:
     reports_dir = ROOT / "reports"
     reports_dir.mkdir(exist_ok=True)
     summary_path = reports_dir / f"{cfg.name}_summary.txt"
-    summary_path.write_text(result.summary())
+    summary_path.write_text(result.summary(), encoding="utf-8")
     logger.info(f"Wrote {summary_path}")
 
 

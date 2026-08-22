@@ -1,0 +1,13 @@
+──────────────────────────────────────────────────
+Total Return    :    640.45%
+CAGR            :     16.68%
+Volatility      :     32.21%
+Sharpe          :       0.64
+Sortino         :       0.65
+Max Drawdown    :    -25.96%
+Calmar          :       0.64
+Win Rate        :     53.85%
+Profit Factor   :       3.02
+# Trades        :         39
+Exposure        :     64.55%
+──────────────────────────────────────────────────
